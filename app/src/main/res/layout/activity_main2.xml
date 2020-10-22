@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="412dp"
+        android:layout_height="459dp"
+        android:layout_marginBottom="393dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rectangle2" />
+
+    <TextView
+        android:id="@+id/menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="1027dp"
+        android:fontFamily="@font/sorts_mill_goudy"
+        android:text="Menu’s to be checked"
+        android:textColor="#F2994A"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <ImageView
+        android:id="@+id/navigation"
+        android:layout_width="70dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="1027dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/notification"
+        android:layout_width="65dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/not" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="413dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="720dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.507"
+        app:layout_goneMarginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/desert_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_white_button"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="Desert"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/salad_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_black_button"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="Salad"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:backgroundTint="@color/design_default_color_on_secondary" />
+
+            <Button
+                android:id="@+id/meat_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_white_button"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="Meat"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/pizza_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_white_button"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="Pizza"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/drinks_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_white_button"
+                android:fontFamily="@font/sorts_mill_goudy"
+                android:text="Desert"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="363dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_color_button">
+
+            <ImageView
+                android:id="@+id/asparagus_recipe_image"
+                android:layout_width="180dp"
+                android:layout_height="161dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/salad1" />
+
+            <TextView
+                android:id="@+id/asparagus_recipe_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/sniglet"
+                android:text="Asparagus Recipe"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/asparagus_recipe_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/asparagus_recipe_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="124dp"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="94dp"
+                android:fontFamily="@font/sniglet"
+                android:text="$6.8"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/asparagus_recipe_image"
+                app:layout_constraintTop_toBottomOf="@+id/asparagus_recipe_title"
+                app:layout_constraintVertical_bias="0.307" />
+
+            <Button
+                android:id="@+id/asparagus_recipe_btn"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/custom_brown_button"
+                android:fontFamily="@font/sofia"
+                android:text="Add"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:backgroundTint="#CD9F45"
+                app:layout_constraintStart_toEndOf="@+id/asparagus_recipe_image"
+                app:layout_constraintTop_toBottomOf="@+id/asparagus_recipe_price" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="373dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="364dp"
+            android:layout_height="158dp"
+            android:background="@drawable/custom_color_button">
+
+            <ImageView
+                android:id="@+id/potato_salad_image"
+                android:layout_width="147dp"
+                android:layout_height="152dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/custom_color_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/salad2" />
+
+            <TextView
+                android:id="@+id/potato_salad_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/sniglet"
+                android:text="Potato Salad"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/potato_salad_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/potato_salad_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="136dp"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="94dp"
+                android:fontFamily="@font/sniglet"
+                android:text="$5.6"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/potato_salad_image"
+                app:layout_constraintTop_toBottomOf="@+id/potato_salad_title"
+                app:layout_constraintVertical_bias="0.131" />
+
+            <Button
+                android:id="@+id/potato_salad_btn"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/custom_brown_button"
+                android:fontFamily="@font/sofia"
+                android:text="Add"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:backgroundTint="#CD9F45"
+                app:layout_constraintStart_toEndOf="@+id/potato_salad_image"
+                app:layout_constraintTop_toBottomOf="@+id/potato_salad_price" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="373dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        android:elevation="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="364dp"
+            android:layout_height="158dp"
+            android:background="@drawable/custom_color_button">
+
+            <ImageView
+                android:id="@+id/greek_salad_image"
+                android:layout_width="145dp"
+                android:layout_height="149dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/custom_color_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/salad3" />
+
+            <TextView
+                android:id="@+id/greek_salad_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="72dp"
+                android:layout_marginLeft="72dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/sniglet"
+                android:text="Greek Salad"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/greek_salad_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/greek_salad_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="94dp"
+                android:fontFamily="@font/sniglet"
+                android:text="$7.0"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/greek_salad_image"
+                app:layout_constraintTop_toBottomOf="@+id/greek_salad_title"
+                app:layout_constraintVertical_bias="0.266" />
+
+            <Button
+                android:id="@+id/greek_salad_btn"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/custom_brown_button"
+                android:fontFamily="@font/sofia"
+                android:text="Add"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                app:backgroundTint="#CD9F45"
+                app:layout_constraintStart_toEndOf="@+id/greek_salad_image"
+                app:layout_constraintTop_toBottomOf="@+id/greek_salad_price" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

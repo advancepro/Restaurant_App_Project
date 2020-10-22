@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <Button
+        android:id="@+id/decrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cart_button_bg"
+        android:onClick="decreaseResult"
+        android:textSize="30sp"
+        android:text="-"
+        app:backgroundTint="#D5542C"
+        app:layout_constraintBottom_toBottomOf="@+id/increase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toEndOf="@+id/result"
+        app:layout_constraintTop_toTopOf="@+id/increase"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_share_24" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="178dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/images" />
+
+    <Button
+        android:id="@+id/increase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/cart_button_bg"
+        android:onClick="increaseResult"
+        android:textSize="30sp"
+        android:text="+"
+        app:backgroundTint="#D5542C"
+        app:layout_constraintEnd_toStartOf="@+id/result"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <Button
+        android:id="@+id/add_to_chart"
+        android:layout_width="224dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_black_button"
+        android:text="Add to chart"
+        app:backgroundTint="#532A1C"
+        android:onClick="displayMessage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
