@@ -10,11 +10,15 @@
     
 * Figma design link - https://www.figma.com/file/ujYwDkXd5mZgHNXSfZQjDk/Untitled?node-id=0%3A1
 
+* Pages of the project:
+    - The home splash page 
+    
+![home.png](https://github.com/advancepro/Restaurant_App/blob/master/screens/home.PNG)
+
 * One implementation related to The University
 ![glide.png](https://github.com/advancepro/Restaurant_App_Project/blob/master/screens/Glide.jpeg)
 
-* Pages of the project:
-The home splash page ![home.png](https://github.com/advancepro/Restaurant_App/blob/master/screens/home.PNG)
+
 
 
     
