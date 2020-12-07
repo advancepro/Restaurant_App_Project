@@ -6,6 +6,11 @@
     - The menu information
     - Ordering system 
     - by increasing or decreasing the amount of how much to order.
+    
+- - - Some additions 
+* When pressign back:
+    - Asks press back again to exit
+ 
 
 * Libraries used are:
     - Glide
