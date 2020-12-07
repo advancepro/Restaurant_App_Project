@@ -33,7 +33,7 @@
 
     - And video is also available for checking
     
-    ![video.mp4](https://github.com/advancepro/Restaurant_App/blob/master/video.mp4)
+   ![video.mp4](https://github.com/advancepro/Restaurant_App/blob/master/video.mp4)
 
 
 * One implementation related to The University(Done by Balloon library & Glide)
