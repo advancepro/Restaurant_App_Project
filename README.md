@@ -1,5 +1,6 @@
 # Restaurant_App_Project
 
+* apk in releases 
 * This project is called Restaurant Application. In order to ease the ordering about the century we live in.
 * It includes the menu information, and ordering system by increasing or decreasing the amount of how much to order.
 
