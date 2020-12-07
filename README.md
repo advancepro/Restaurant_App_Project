@@ -11,6 +11,6 @@
 * Figma design link - https://www.figma.com/file/ujYwDkXd5mZgHNXSfZQjDk/Untitled?node-id=0%3A1
 
 * One implementation related to The University
-![home.png](https://github.com/advancepro/Restaurant_App/blob/master/screens/home.PNG)
+![glide.png](https://github.com/advancepro/Restaurant_App_Project/blob/master/screens/Glide.jpeg)
 
     
