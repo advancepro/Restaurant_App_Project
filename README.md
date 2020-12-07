@@ -27,6 +27,14 @@
     
 ![details.png](https://github.com/advancepro/Restaurant_App/blob/master/details.PNG)
 
+* Here is the example of the menu:
+
+![menus.jpg](https://github.com/advancepro/Restaurant_App_Project/blob/master/screens/menus.jpg)
+
+    - And video is also available for checking
+    
+    ![video.mp4](https://github.com/advancepro/Restaurant_App/blob/master/video.mp4)
+
 
 * One implementation related to The University
 ![glide.png](https://github.com/advancepro/Restaurant_App_Project/blob/master/screens/Glide.jpeg)
