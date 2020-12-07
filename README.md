@@ -13,7 +13,16 @@
 * Pages of the project:
     - The home splash page 
     
-![home.png](https://github.com/advancepro/Restaurant_App/blob/master/screens/home.PNG)
+* Steps for the order:
+    - Order page
+    
+![mainactivity.png](https://github.com/advancepro/Restaurant_App/blob/master/screens/mainactivity2.PNG)
+
+* Choosing how many to order:
+    - Last step for the ordering
+    
+![details.png](https://github.com/advancepro/Restaurant_App/blob/master/details.PNG)
+
 
 * One implementation related to The University
 ![glide.png](https://github.com/advancepro/Restaurant_App_Project/blob/master/screens/Glide.jpeg)
