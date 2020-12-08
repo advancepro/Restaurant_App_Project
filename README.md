@@ -26,7 +26,7 @@
 ![figma.png](https://github.com/advancepro/Restaurant_App_Project/blob/master/screens/figma.PNG)
 
 * Pages of the project:
-    - The home splash page 
+    - The home splash page (with figma)
     
 ![home.png](https://github.com/advancepro/Restaurant_App/blob/master/screens/home.PNG)
     
