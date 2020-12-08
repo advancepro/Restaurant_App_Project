@@ -1,6 +1,7 @@
 # Restaurant_App_Project
 
 * apk in releases ✓
+* Commit history(code)
 * This project is called Restaurant Application. In order to ease the ordering about the century we live in.
 * It includes 
     - The menu information
@@ -13,7 +14,6 @@
 
 ![Press%20Back.jpeg](https://github.com/advancepro/Restaurant_App_Project/blob/master/screens/Press%20Back.jpeg)
  
-
 * Libraries used are:
     - Glide
     - Balloon
