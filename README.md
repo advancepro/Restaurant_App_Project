@@ -1,4 +1,4 @@
-# Restaurant_App_Project
+# Restaurant Management System
 
 * apk in releases ✓
 * Commit history(code) ✓
