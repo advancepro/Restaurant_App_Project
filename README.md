@@ -21,6 +21,8 @@
     
 * Figma design link - https://www.figma.com/file/ujYwDkXd5mZgHNXSfZQjDk/Untitled?node-id=0%3A1
 
+* For splash page figma - https://www.figma.com/file/F2UV8pmE6Gig5nOwDMWY4S/Untitled
+
 ![figma.png](https://github.com/advancepro/Restaurant_App_Project/blob/master/screens/figma.PNG)
 
 * Pages of the project:
