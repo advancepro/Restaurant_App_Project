@@ -2,7 +2,7 @@
 
 * apk in releases ✓
 * Commit history(code) ✓
-    - https://github.com/advancepro/Restaurant_App_Project/tree/master/Commit%20code%20history
+    - https://github.com/advancepro/Restaurant_App_Project/tree/master/Remove%201%20week%20history
 * This project is called Restaurant Application. In order to ease the ordering about the century we live in.
 * It includes 
     - The menu information
