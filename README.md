@@ -31,10 +31,10 @@
     
 ![home.png](https://github.com/advancepro/Restaurant_App/blob/master/screens/home.PNG)
     
-* Steps for the order:
+* Steps before the order:
     - Order page
     
-![mainactivity.png](https://github.com/advancepro/Restaurant_App/blob/master/screens/mainactivity2.PNG)
+![feedback.png](https://github.com/advancepro/Restaurant_App_Project/blob/master/feedback.png)
 
 * Choosing how many to order:
     - Last step for the ordering
