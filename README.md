@@ -34,7 +34,7 @@
 * Steps before the order:
     - Order page
     
-![feedback.png](https://github.com/advancepro/Restaurant_App_Project/blob/master/feedback.png)
+![feedback.png](https://github.com/advancepro/Restaurant_App_Project/blob/master/screens/feedback.png)
 
 * Choosing how many to order:
     - Last step for the ordering
